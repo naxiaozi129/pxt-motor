@@ -14,7 +14,7 @@ namespace custom {
     //%e.min=-255 e.max=255
     export function setSpeedA(n1: AnalogPin, n2: AnalogPin, e: number): void {
         if (e <= 0) {
-            pins.analogWritePin(n1, e)
+            pins.analogWritePin(n1, -e)
             pins.analogWritePin(n2, 0)
         } else {
             pins.analogWritePin(n2, e)
