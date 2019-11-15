@@ -2,7 +2,7 @@
 /**
  * motor
  */
-//% weight=100 color=#0fbc11 icon="f1b9"
+//% weight=100 color=#0fbc11 icon="\uf1b9"
 namespace custom {
     /**
      * TODO: 控制电机
